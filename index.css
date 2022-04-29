@@ -27,9 +27,14 @@
     font-weight: 200;
 }
 
+
 .navbar ul li a {
     text-decoration: none;
     color: #555;
+    transition: 300ms ease-in-out;
+}
+.navbar nav ul li a:hover{
+    color: #Ff523b;
 }
 
 .container {
@@ -39,7 +44,7 @@
     padding-right: 25px;
 }
 header{
-    background-color: radial-gradient(#fff, #ffd6d6);
+    background: radial-gradient(#fff, #ffd6d6);
 }
 
 .row {
@@ -110,4 +115,10 @@ header{
 
 .col-3 img{
     width: 100%;
+}
+
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding: 0 25px;
 }
